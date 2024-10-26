@@ -13,7 +13,7 @@ CORS(app)  # Habilitar CORS para todas las solicitudes
 
 model = load_model('model-2.h5')
 
-host = 'orders_database'
+host = 'liverpool_database'
 port = 5432
 dbname = 'liverdb'
 user = 'postgres'
